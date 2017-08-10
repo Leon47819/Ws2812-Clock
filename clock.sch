@@ -1,0 +1,337 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ws2812b
+LIBS:clock-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X03 J1
+U 1 1 59889F63
+P -5400 -700
+F 0 "J1" H -5400 -500 50  0000 C CNN
+F 1 "VCC_DATA_GND" V -5300 -700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H -5400 -700 50  0001 C CNN
+F 3 "" H -5400 -700 50  0001 C CNN
+	1    -5400 -700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L WS2812B LED1
+U 1 1 59889FEB
+P -5400 550
+F 0 "LED1" H -5400 150 60  0000 C CNN
+F 1 "WS2812B" H -5400 950 60  0000 C CNN
+F 2 "WS2812B:WS2812B" V -5450 550 60  0001 C CNN
+F 3 "" V -5450 550 60  0000 C CNN
+	1    -5400 550 
+	1    0    0    -1  
+$EndComp
+$Comp
+L WS2812B LED2
+U 1 1 5988A146
+P -5400 1500
+F 0 "LED2" H -5400 1100 60  0000 C CNN
+F 1 "WS2812B" H -5400 1900 60  0000 C CNN
+F 2 "WS2812B:WS2812B" V -5450 1500 60  0001 C CNN
+F 3 "" V -5450 1500 60  0000 C CNN
+	1    -5400 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L WS2812B LED3
+U 1 1 5988A17E
+P -5400 2400
+F 0 "LED3" H -5400 2000 60  0000 C CNN
+F 1 "WS2812B" H -5400 2800 60  0000 C CNN
+F 2 "WS2812B:WS2812B" V -5450 2400 60  0001 C CNN
+F 3 "" V -5450 2400 60  0000 C CNN
+	1    -5400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L WS2812B LED4
+U 1 1 5988A1AD
+P -5400 3300
+F 0 "LED4" H -5400 2900 60  0000 C CNN
+F 1 "WS2812B" H -5400 3700 60  0000 C CNN
+F 2 "WS2812B:WS2812B" V -5450 3300 60  0001 C CNN
+F 3 "" V -5450 3300 60  0000 C CNN
+	1    -5400 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L WS2812B LED5
+U 1 1 5988A1D6
+P -5400 4250
+F 0 "LED5" H -5400 3850 60  0000 C CNN
+F 1 "WS2812B" H -5400 4650 60  0000 C CNN
+F 2 "WS2812B:WS2812B" V -5450 4250 60  0001 C CNN
+F 3 "" V -5450 4250 60  0000 C CNN
+	1    -5400 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L WS2812B LED10
+U 1 1 5988A204
+P -5450 8800
+F 0 "LED10" H -5450 8400 60  0000 C CNN
+F 1 "WS2812B" H -5450 9200 60  0000 C CNN
+F 2 "WS2812B:WS2812B" V -5500 8800 60  0001 C CNN
+F 3 "" V -5500 8800 60  0000 C CNN
+	1    -5450 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L WS2812B LED9
+U 1 1 5988A243
+P -5400 7900
+F 0 "LED9" H -5400 7500 60  0000 C CNN
+F 1 "WS2812B" H -5400 8300 60  0000 C CNN
+F 2 "WS2812B:WS2812B" V -5450 7900 60  0001 C CNN
+F 3 "" V -5450 7900 60  0000 C CNN
+	1    -5400 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L WS2812B LED8
+U 1 1 5988A27A
+P -5400 7000
+F 0 "LED8" H -5400 6600 60  0000 C CNN
+F 1 "WS2812B" H -5400 7400 60  0000 C CNN
+F 2 "WS2812B:WS2812B" V -5450 7000 60  0001 C CNN
+F 3 "" V -5450 7000 60  0000 C CNN
+	1    -5400 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L WS2812B LED7
+U 1 1 5988A2AE
+P -5400 6100
+F 0 "LED7" H -5400 5700 60  0000 C CNN
+F 1 "WS2812B" H -5400 6500 60  0000 C CNN
+F 2 "WS2812B:WS2812B" V -5450 6100 60  0001 C CNN
+F 3 "" V -5450 6100 60  0000 C CNN
+	1    -5400 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L WS2812B LED6
+U 1 1 5988A2E7
+P -5400 5200
+F 0 "LED6" H -5400 4800 60  0000 C CNN
+F 1 "WS2812B" H -5400 5600 60  0000 C CNN
+F 2 "WS2812B:WS2812B" V -5450 5200 60  0001 C CNN
+F 3 "" V -5450 5200 60  0000 C CNN
+	1    -5400 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-6200 -500 -5500 -500
+Wire Wire Line
+	-4900 750  -4800 750 
+Wire Wire Line
+	-4800 -500 -4800 9550
+Wire Wire Line
+	-4800 9000 -4950 9000
+Wire Wire Line
+	-4900 8100 -4800 8100
+Connection ~ -4800 8100
+Wire Wire Line
+	-4900 7200 -4800 7200
+Connection ~ -4800 7200
+Wire Wire Line
+	-4900 6300 -4800 6300
+Connection ~ -4800 6300
+Wire Wire Line
+	-4900 5400 -4800 5400
+Connection ~ -4800 5400
+Wire Wire Line
+	-4900 4450 -4800 4450
+Connection ~ -4800 4450
+Wire Wire Line
+	-4900 3500 -4800 3500
+Connection ~ -4800 3500
+Wire Wire Line
+	-4900 2600 -4800 2600
+Connection ~ -4800 2600
+Wire Wire Line
+	-6200 8600 -5950 8600
+Wire Wire Line
+	-6200 -500 -6200 9550
+Wire Wire Line
+	-6200 350  -5900 350 
+Connection ~ -6200 350 
+Wire Wire Line
+	-5900 1300 -6200 1300
+Connection ~ -6200 1300
+Wire Wire Line
+	-5900 2200 -6200 2200
+Connection ~ -6200 2200
+Wire Wire Line
+	-5900 4050 -6200 4050
+Connection ~ -6200 4050
+Wire Wire Line
+	-5900 3100 -6200 3100
+Connection ~ -6200 3100
+Wire Wire Line
+	-5900 5000 -6200 5000
+Connection ~ -6200 5000
+Wire Wire Line
+	-5900 5900 -6200 5900
+Connection ~ -6200 5900
+Wire Wire Line
+	-5900 6800 -6200 6800
+Connection ~ -6200 6800
+Wire Wire Line
+	-5900 7700 -6200 7700
+Connection ~ -6200 7700
+Wire Wire Line
+	-4900 350  -4850 350 
+Wire Wire Line
+	-4850 350  -4850 0   
+Wire Wire Line
+	-4850 0    -5400 0   
+Wire Wire Line
+	-5400 0    -5400 -500
+Wire Wire Line
+	-5900 750  -5900 1050
+Wire Wire Line
+	-5900 1050 -4850 1050
+Wire Wire Line
+	-4850 1050 -4850 1300
+Wire Wire Line
+	-4850 1300 -4900 1300
+Wire Wire Line
+	-5900 1700 -5900 1950
+Wire Wire Line
+	-5900 1950 -4850 1950
+Wire Wire Line
+	-4850 1950 -4850 2200
+Wire Wire Line
+	-4850 2200 -4900 2200
+Wire Wire Line
+	-5900 2600 -5900 2850
+Wire Wire Line
+	-5900 2850 -4850 2850
+Wire Wire Line
+	-4850 2850 -4850 3100
+Wire Wire Line
+	-4850 3100 -4900 3100
+Wire Wire Line
+	-5900 3500 -5900 3800
+Wire Wire Line
+	-5900 3800 -4850 3800
+Wire Wire Line
+	-4850 3800 -4850 4050
+Wire Wire Line
+	-4850 4050 -4900 4050
+Wire Wire Line
+	-5900 4450 -5900 4750
+Wire Wire Line
+	-5900 4750 -4850 4750
+Wire Wire Line
+	-4850 4750 -4850 5000
+Wire Wire Line
+	-4850 5000 -4900 5000
+Wire Wire Line
+	-5900 5400 -5900 5650
+Wire Wire Line
+	-5900 5650 -4850 5650
+Wire Wire Line
+	-4850 5650 -4850 5900
+Wire Wire Line
+	-4850 5900 -4900 5900
+Wire Wire Line
+	-5900 6300 -5900 6550
+Wire Wire Line
+	-5900 6550 -4850 6550
+Wire Wire Line
+	-4850 6550 -4850 6800
+Wire Wire Line
+	-4850 6800 -4900 6800
+Wire Wire Line
+	-5900 7200 -5900 7450
+Wire Wire Line
+	-5900 7450 -4850 7450
+Wire Wire Line
+	-4850 7450 -4850 7700
+Wire Wire Line
+	-4850 7700 -4900 7700
+Wire Wire Line
+	-5900 8100 -5900 8350
+Wire Wire Line
+	-5900 8350 -4850 8350
+Wire Wire Line
+	-4850 8350 -4850 8600
+Wire Wire Line
+	-4850 8600 -4950 8600
+Wire Wire Line
+	-4900 1700 -4800 1700
+Connection ~ -4800 1700
+Wire Wire Line
+	-5300 -500 -4800 -500
+Connection ~ -4800 750 
+$Comp
+L CONN_01X03 J2
+U 1 1 5989854E
+P -5500 9750
+F 0 "J2" H -5500 9950 50  0000 C CNN
+F 1 "VCC_DATA_GND" V -5400 9750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H -5500 9750 50  0001 C CNN
+F 3 "" H -5500 9750 50  0001 C CNN
+	1    -5500 9750
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	-4800 9550 -5400 9550
+Connection ~ -4800 9000
+Wire Wire Line
+	-6200 9550 -5600 9550
+Connection ~ -6200 8600
+Wire Wire Line
+	-5950 9000 -5950 9350
+Wire Wire Line
+	-5950 9350 -5500 9350
+Wire Wire Line
+	-5500 9350 -5500 9550
+$EndSCHEMATC
