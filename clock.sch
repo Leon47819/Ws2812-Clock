@@ -170,7 +170,7 @@ Wire Wire Line
 Wire Wire Line
 	-4900 750  -4800 750 
 Wire Wire Line
-	-4800 -500 -4800 9550
+	-4800 -500 -4800 10150
 Wire Wire Line
 	-4800 9000 -4950 9000
 Wire Wire Line
@@ -197,7 +197,7 @@ Connection ~ -4800 2600
 Wire Wire Line
 	-6200 8600 -5950 8600
 Wire Wire Line
-	-6200 -500 -6200 9550
+	-6200 -500 -6200 10150
 Wire Wire Line
 	-6200 350  -5900 350 
 Connection ~ -6200 350 
@@ -334,4 +334,21 @@ Wire Wire Line
 	-5950 9350 -5500 9350
 Wire Wire Line
 	-5500 9350 -5500 9550
+$Comp
+L CP C1
+U 1 1 5992DBAB
+P -5500 10150
+F 0 "C1" H -5475 10250 50  0000 L CNN
+F 1 "1000mF" H -5475 10050 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D8.0mm_P3.80mm" H -5462 10000 50  0001 C CNN
+F 3 "" H -5500 10150 50  0001 C CNN
+	1    -5500 10150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-6200 10150 -5650 10150
+Connection ~ -6200 9550
+Wire Wire Line
+	-4800 10150 -5350 10150
+Connection ~ -4800 9550
 $EndSCHEMATC
